@@ -42,4 +42,5 @@ Obviously, I did this manually. but anything that can be done manually in MongoD
 3. Put together a small web front end with a search box and output query results from matching blog posts
 4. A simple Node.js server for the front end to call to, which will make the appropriate query calls to the database and also return the results to the front end.
 5. Because of how MongoDB works to organize data, I had to put all of the posts in a single JSON file representing an array of objects. That's the top figure in this readme. Dave's current backup to JSON structure is to have one JSON object file per post. I'll have to address this.
-6. Probably more that I haven't thought of yet.
+6. Just realized this could incorporate one's Twitter feed as well, making one's tweets part of the "BrainBase" as I'm calling it for now. Tweets can easily be captured / stored as JSON and added to the database along with posts, making their content searchable at the same time to find related thoughts / topics.
+7. Probably more that I haven't thought of yet.
